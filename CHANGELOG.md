@@ -1,3 +1,441 @@
+# 13.1.0
+
+### :rocket: Enhancement
+- [#904](https://github.com/primer/css/pull/904) Add Keyboard Shortcuts `kbd`  from github/github
+- [#926](https://github.com/primer/css/pull/926) Add Flash Banner `.flash-banner` from github/github
+- [#927](https://github.com/primer/css/pull/927) Add `.flex-column-reverse` utilities
+
+### :memo: Documentation
+- [#932](https://github.com/primer/css/pull/932) Fix CDN links in documentation
+- [#933](https://github.com/primer/css/pull/933) Convert most ERB examples to HTML
+
+### Committers
+- [@shawnbot](https://github.com/shawnbot)
+- [@simurai](https://github.com/simurai)
+
+# 13.0.2
+
+### :memo: Documentation
+- Use inline octicon in branch name example [#886](https://github.com/primer/css/pull/886)
+- Move select menu list into the modal div [#903](https://github.com/primer/css/pull/903)
+- Improve SelectMenu docs [#923](https://github.com/primer/css/pull/923)
+
+### :house: Internal
+- Update "Ship checklist" [#902](https://github.com/primer/css/pull/902)
+- Bump stylelint, et al; add CI tests and script for removing needless disables [#912](https://github.com/primer/css/pull/912)
+
+### Committers
+- [@colebemis](https://github.com/colebemis)
+- [@mxie](https://github.com/mxie)
+- [@shawnbot](https://github.com/shawnbot)
+- [@simurai](https://github.com/simurai)
+
+# 13.0.1
+
+### :bug: Bug Fix
+- Remove "Segoe UI Symbol" from font stack [#906](https://github.com/primer/css/pull/906)
+
+### Committers
+- [@simurai](https://github.com/simurai)
+
+# 13.0.0
+
+### :boom: Breaking Change
+- Remove `.container`, `.columns`, `.column`, and related classes [#662](https://github.com/primer/css/pull/662)
+- Remove `.btn-purple` [#736](https://github.com/primer/css/pull/736) :wave: 💜
+- Remove `.text-pending` and `.bg-pending` [#888](https://github.com/primer/css/pull/888)
+- Remove `.dropdown-menu-content` [#884](https://github.com/primer/css/pull/884)
+
+### :nail_care: Polish
+- Select menu improvements [#893](https://github.com/primer/css/pull/893)
+
+### :memo: Documentation
+- The layout docs, formerly available at `/css/objects/layout`, are gone and will redirect to `/css/objects/grid`.
+
+### :house: Internal
+- Add deprecations test script [#889](https://github.com/primer/css/pull/889)
+- Clean up scripts and dev dependencies [#890](https://github.com/primer/css/pull/890)
+- Upgrade stylelint-config-primer to v8.0.0 [#892](https://github.com/primer/css/pull/892)
+- Upgrade doctocat, live code wrappers [#895](https://github.com/primer/css/pull/895)
+
+### Committers
+- [@jonrohan](https://github.com/jonrohan)
+- [@shawnbot](https://github.com/shawnbot)
+- [@simurai](https://github.com/simurai)
+- [@sophshep](https://github.com/sophshep)
+
+# 12.7.0
+
+### :rocket: Enhancement
+- Import Dropdown component; add dark variants for dropdown and text fields [#862](https://github.com/primer/css/pull/862)
+- Add `.break-word` utility and improve word-break docs [#880](https://github.com/primer/css/pull/880)
+- Publish deprecation data [#883](https://github.com/primer/css/pull/883)
+
+### :memo: Documentation
+- Fix mistake in flex-justify-start explanation [#877](https://github.com/primer/css/pull/877)
+
+### :house: Internal
+- Fix CSS bundle size report when adding bundles [#879](https://github.com/primer/css/pull/879)
+- Migrate to GitHub Actions v2 [#881](https://github.com/primer/css/pull/881)
+
+### Committers
+- [@dcastil](https://github.com/dcastil)
+- [@shawnbot](https://github.com/shawnbot)
+- [@simurai](https://github.com/simurai)
+- [@vdepizzol](https://github.com/vdepizzol)
+
+# 12.6.2
+
+### :nail_care: Polish
+- Add default background-color to SideNav https://github.com/primer/css/pull/873
+
+### :house: Internal
+- Change order in RELEASING.md https://github.com/primer/css/pull/875
+
+### Committers
+- [@shawnbot](https://github.com/shawnbot)
+- [@simurai](https://github.com/simurai)
+
+# 12.6.1
+
+### :bug: Bug Fix
+- Remove non-ascii characters (en dashes?) from SCSS comments [#870](https://github.com/primer/css/pull/870)
+- Fix SideNav "jumping" in Safari [#868](https://github.com/primer/css/pull/868)
+
+### :nail_care: Polish
+- Improve Select Menu spacing [#844](https://github.com/primer/css/pull/844)
+
+### :memo: Documentation
+- Update colorable URL [#867](https://github.com/primer/css/pull/867)
+
+### :house: Internal
+- Update changelog for 12.6.0 [#866](https://github.com/primer/css/pull/866)
+
+### Committers
+- [@jonrohan](https://github.com/jonrohan)
+- [@kiendang](https://github.com/kiendang)
+- [@shawnbot](https://github.com/shawnbot)
+- [@shreve](https://github.com/shreve)
+- [@simurai](https://github.com/simurai)
+
+# 12.6.0
+
+### 🚀 Enhancements
+- Loading toast styles [#852](https://github.com/primer/css/pull/852)
+- Header component [#845](https://github.com/primer/css/pull/845)
+- Import `.octicon` CSS in the core bundle [#857](https://github.com/primer/css/pull/857)
+- Design update for blankslates [#861](https://github.com/primer/css/pull/861)
+- Don't let State labels wrap [#863](https://github.com/primer/css/pull/863)
+
+### 📝 Documentation
+- Fix some links in linting docs [#856](https://github.com/primer/css/pull/856)
+- Updates to the development docs [#855](https://github.com/primer/css/pull/855)
+- Generate bundle source READMEs from a template [#859](https://github.com/primer/css/pull/859)
+- Render Octicon Ruby helper in docs [#847](https://github.com/primer/css/pull/847)
+
+### 🏠 Internal
+- Add GitHub `styleguide.css` to Storybook [#849](https://github.com/primer/css/pull/849)
+
+### Committers
+- [@ashygee](https://github.com/ashygee)
+- [@emilybrick](https://github.com/emilybrick)
+- [@jonrohan](https://github.com/jonrohan)
+- [@shawnbot](https://github.com/shawnbot)
+- [@vdepizzol](https://github.com/vdepizzol)
+
+# 12.5.0
+
+### :rocket: Enhancement
+- Add `.Toast` component [#831](https://github.com/primer/css/pull/831)
+- Add `.SideNav` component [#827](https://github.com/primer/css/pull/827)
+- Add `.SelectMenu` component [#808](https://github.com/primer/css/pull/808)
+- Add `font-display: swap` to `@font-face` declarations [#780](https://github.com/primer/css/pull/780)
+- Add `flex-grow-0`, `flex-order-[1,2,none]` and `width-auto` utilities [#763](https://github.com/primer/css/pull/763)
+- Change default for `$marketing-font-path` to `/fonts/` [#837](https://github.com/primer/css/pull/837)
+
+### :bug: Bug Fix
+- Improve monospaced font on Chrome Android [#812](https://github.com/primer/css/pull/812)
+
+### :memo: Documentation
+- Add multi-word naming conventions to BEM docs [#836](https://github.com/primer/css/pull/836)
+- Color system docs updates [#811](https://github.com/primer/css/pull/811)
+- Color utility table tweaks [#842](https://github.com/primer/css/pull/842)
+- Fix markdown typos in Contributing docs page [#846](https://github.com/primer/css/pull/846)
+
+### Committers
+- [@ampinsk](https://github.com/ampinsk)
+- [@emilybrick](https://github.com/emilybrick)
+- [@emplums](https://github.com/emplums)
+- [@jonrohan](https://github.com/jonrohan)
+- [@shawnbot](https://github.com/shawnbot)
+- [@simurai](https://github.com/simurai)
+- [@skullface](https://github.com/skullface)
+- [@vdepizzol](https://github.com/vdepizzol)
+
+# 12.4.1
+
+### :bug: Bug fixes
+- Fix [#822](https://github.com/primer/css/issues/822) (`.border-dashed` issues) via [#824](https://github.com/primer/css/issues/824)
+
+### :memo: Documentation
+- Typos fixed in [#802](https://github.com/primer/css/issues/802) (thank you, [@The-Compiler](https://github.com/The-Compiler)!)
+- Nav updates [#803](https://github.com/primer/css/issues/803)
+- Fix tables of contents [#762](https://github.com/primer/css/issues/762)
+- Add deprecation warning for `.btn-purple`, due to disappear in 13.0.0 via [#736](https://github.com/primer/css/issues/736)
+- Lots more documentation updates in [#814](https://github.com/primer/css/issues/814)
+
+### :house: Internal
+- Decommission `primer/deploy` [#809](https://github.com/primer/css/issues/809)
+
+### Committers
+- [@emplums](https://github.com/emplums)
+- [@shawnbot](https://github.com/shawnbot)
+- [@simurai](https://github.com/simurai)
+- [@The-Compiler](https://github.com/The-Compiler)
+
+
+# 12.4.0
+
+### :rocket: Enhancement
+- More responsive border utilities [#775](https://github.com/primer/css/pull/775)
+- Add `overflow: visible` utilities [#798](https://github.com/primer/css/pull/798)
+- Add `yellow` color utilities that will replace `pending` [#737](https://github.com/primer/css/pull/737)
+
+### :bug: Bug Fix
+- Fix Ruby Sass compiler warnings by quoting keys in `$hue-maps` declaration [#794](https://github.com/primer/css/pull/794)
+
+### :house: Internal
+- Remove `test-all-modules` scripts and old monorepo test scripts [#795](https://github.com/primer/css/pull/795)
+- Resolve all but one ([#796](https://github.com/primer/css/pull/796)) vulnerability in npm dev dependencies [#797](https://github.com/primer/css/pull/797)
+
+### Committers
+- [@broccolini](https://github.com/broccolini)
+- [@shawnbot](https://github.com/shawnbot)
+- [@simurai](https://github.com/simurai)
+
+# 12.3.1
+
+### 🐛 Bug Fix
+- Add `aria-selected="true"` support to tabbed navigation styles to play nicely with [`<tab-container>`](https://github.com/github/tab-container-element)
+
+### 🏠 Internal
+- Resolve the vulnerability alert with `tar@<4.4.2` in [CVE-2018-20834](https://nvd.nist.gov/vuln/detail/CVE-2018-20834)
+
+### Committers
+- [@shawnbot](https://github.com/shawnbot)
+
+# 12.3.0
+
+### :rocket: Enhancement
+- More color utilities! [#760](https://github.com/primer/css/pull/760) ([@shawnbot](https://github.com/shawnbot))
+- Add pink to Primer! 💖🌸💕🌷💞🎀💗🌺💝 [#776](https://github.com/primer/css/pull/776), [#778](https://github.com/primer/css/pull/778) ([@emplums](https://github.com/emplums)))
+
+### :house: Internal
+- Update storybook [#777](https://github.com/primer/css/pull/777) ([@emplums](https://github.com/emplums))
+- Add bundle size report [#772](https://github.com/primer/css/pull/772) ([@shawnbot](https://github.com/shawnbot))
+
+### :memo: Documentation
+- Update Primer references to Primer CSS [#771](https://github.com/primer/css/pull/771) ([@emplums](https://github.com/emplums))
+- Add Edit on GitHub links to docs [#770](https://github.com/primer/css/pull/770) ([@emplums](https://github.com/emplums))
+- Anchor Link in Docs [#768](https://github.com/primer/css/pull/768) ([@emplums](https://github.com/emplums))
+
+### :house: Internal
+- Update RELEASING [#757](https://github.com/primer/css/pull/757) ([@simurai](https://github.com/simurai))
+
+### Committers
+- [@emplums](https://github.com/emplums)
+- [@shawnbot](https://github.com/shawnbot)
+- [@simurai](https://github.com/simurai)
+
+# 12.2.3
+
+### :bug: Bug Fix
+- Remove references to a non-existent `Progress-value` class https://github.com/primer/css/pull/751
+
+### :house: Internal
+- Upgrade stylelint config https://github.com/primer/css/pull/753
+
+#### Committers: 1
+- Shawn Allen ([shawnbot](https://github.com/shawnbot))
+
+# 12.2.2
+
+### :bug: Bug Fix
+- Fix hide utilities when toggling between breakpoints [#746](https://github.com/primer/css/pull/746)
+
+### :house: Internal
+- Prevent Storybook publish failures from breaking builds on `master` [#728](https://github.com/primer/css/pull/728)
+- Upgrade to [cssstats v3.3.0](https://github.com/cssstats/cssstats/releases/tag/v3.3.0), which fixes our selector stats JSON files
+
+#### Committers: 2
+- Shawn Allen ([shawnbot](https://github.com/shawnbot))
+- Simurai ([simurai](https://github.com/simurai))
+
+# 12.2.1
+
+### :bug: Bug Fix
+- Fix source order of directional border utilities [#727](https://github.com/primer/css/pull/727)
+- Fix UnderlineNav selected border width [#733](https://github.com/primer/css/pull/733)
+
+### :memo: Documentation
+- Fix changelog committers listings for versions 12.0.1 and 12.0.2 [#729](https://github.com/primer/css/pull/729)
+- Fix code examples from being cut off [#725](https://github.com/primer/css/pull/725)
+
+#### Committers: 2
+- Shawn Allen ([shawnbot](https://github.com/shawnbot))
+- Simurai ([simurai](https://github.com/simurai))
+
+# 12.2.0
+
+### :rocket: Enhancement
+- Add more `.border-white-fade` utilities [#713](https://github.com/primer/css/pull/713)
+
+### :nail_care: Polish
+- Fix `<details>` spacing [#675](https://github.com/primer/css/pull/675)
+
+### :bug: Bug Fixes
+- Accessibility fixes for marketing buttons [#716](https://github.com/primer/css/pull/716)
+
+### :memo: Documentation
+- Fix scrolling of code examples [#717](https://github.com/primer/css/pull/717)
+
+### :house: Internal
+- Fix `npm link` ([#715](https://github.com/primer/css/issue/715)) by removing `prepare` npm script [#718](https://github.com/primer/css/pull/718)
+
+#### Committers: 4
+- Diana Mounter ([broccolini](https://github.com/broccolini))
+- Max Stoiber ([mxstbr](https://github.com/mxstbr))
+- Shawn Allen ([shawnbot](https://github.com/shawnbot))
+- Simurai ([simurai](https://github.com/simurai))
+
+# 12.1.1
+
+### :bug: Bug Fix
+- Remove UI from font file path [#709](https://github.com/primer/css/pull/709)
+
+### :memo: Documentation
+- Removes sync functionality from docs [#710](https://github.com/primer/css/pull/710)
+
+### :house: Internal
+- Fixes Storybook [#707](https://github.com/primer/css/pull/707) and [#711](https://github.com/primer/css/pull/711)
+
+#### Committers: 3
+- Catherine Bui ([gladwearefriends](https://github.com/gladwearefriends))
+- Shawn Allen ([shawnbot](https://github.com/shawnbot))
+- Emily Plummer ([emplums](https://github.com/emplums))
+
+# 12.1.0
+
+### :rocket: Enhancement
+- Per-axis overflow utilities [#701](https://github.com/primer/css/pull/701)
+- Add `0` to responsive marketing positioning utilities (`top-lg-0`, et al) [#697](https://github.com/primer/css/pull/697)
+- Add negative offset utilities to marketing/utilities/layout [#639](https://github.com/primer/css/pull/639)
+
+### :memo: Documentation
+- Fix changelog committers list for 12.0.2 (accidentally listed under 12.0.1)
+
+### :house: Internal
+- Remove a bunch of unused dev dependencies [#703](https://github.com/primer/css/pull/703)
+- Update `script/selector-diff-report` to compare against `@primer/css` (not `primer`!)
+
+#### Committers: 3
+- Catherine Bui ([gladwearefriends](https://github.com/gladwearefriends))
+- Shawn Allen ([shawnbot](https://github.com/shawnbot))
+- Tyson Rosage ([trosage](https://github.com/trosage))
+
+# 12.0.2
+
+### :bug: Bug fix
+- Restore missing marketing padding utilities [#695](https://github.com/primer/css/pull/695)
+
+### :memo: Documentation
+- Explain why `.tooltipped` should be used sparingly [#676](https://github.com/primer/css/pull/676)
+- Fix trailing slash errors in Next.js [#681](https://github.com/primer/css/pull/681)
+- Add static assets to Now deployments [#687](https://github.com/primer/css/pull/687)
+- Shiny new social and README header by @ashygee [#689](https://github.com/primer/css/pull/689)
+
+### :house: Internal
+- Remove `postversion` script from `package.json` and update the [PR template](https://github.com/primer/css/blob/master/RELEASING.md#in-this-repo)
+- Rename InterUI font to "Inter", per [inter v3.3](https://github.com/rsms/inter/releases/tag/v3.3) [#696](https://github.com/primer/css/pull/696)
+
+#### Committers: 4
+- Ash Guillaume ([ashygee](https://github.com/ashygee))
+- David Graham ([dgraham](https://github.com/dgraham))
+- Mu-An Chiou ([muan](https://github.com/muan))
+- Shawn Allen ([shawnbot](https://github.com/shawnbot))
+
+# 12.0.1
+
+### :bug: Bug Fix
+- Add missing `h000-mktg` class [#667](https://github.com/primer/css/pull/667)
+- Fix UnderlineNav overflow issues [#684](https://github.com/primer/css/pull/684)
+- Fix double borders on Box-header [#686](https://github.com/primer/css/pull/686)
+
+### :house: Internal
+- Add `postversion` npm script that commits `package.json` and `package-lock.json` with consistent commit messages (`chore: v<version>`)
+
+#### Committers: 2
+- Catherine Bui ([gladwearefriends](https://github.com/gladwearefriends))
+- Shawn Allen ([shawnbot](https://github.com/shawnbot))
+
+# 12.0.0
+
+:rotating_light: **Starting with version 12.0.0, the `primer` package is now known as `@primer/css`**. See [MIGRATING.md](https://github.com/primer/css/tree/master/MIGRATING.md) for more info.
+
+#### :boom: Breaking Change
+* [#666](https://github.com/primer/css/pull/666) Reorganize into a single `@primer/css` package ([@shawnbot](https://github.com/shawnbot))
+
+#### Committers: 2
+- Shawn Allen ([shawnbot](https://github.com/shawnbot))
+- Catherine Bui ([gladwearefriends](https://github.com/gladwearefriends))
+
+# 11.0.0
+
+#### :boom: Breaking Change
+* [#438](https://github.com/primer/primer/pull/438) Remove `primer-page-sections` package. ([@sophshep](https://github.com/sophshep))
+* [#439](https://github.com/primer/primer/pull/439) Remove `primer-page-headers` package. ([@sophshep](https://github.com/sophshep))
+* [#440](https://github.com/primer/primer/pull/440) Remove `primer-tables` package. ([@sophshep](https://github.com/sophshep))
+* [#459](https://github.com/primer/primer/pull/459) Move responsive position utilities from marketing to core. ([@sophshep](https://github.com/sophshep))
+* [#656](https://github.com/primer/primer/pull/656) Remove colorizeTooltip mixin. ([@shawnbot](https://github.com/shawnbot))
+* [#657](https://github.com/primer/primer/pull/657) Remove `BtnGroup-form` class. ([@shawnbot](https://github.com/shawnbot))
+* [#658](https://github.com/primer/primer/pull/658) Remove `.avatar-stack` in favor of `.AvatarStack`. ([@shawnbot](https://github.com/shawnbot))
+
+#### :rocket: Enhancement
+* [#583](https://github.com/primer/primer/pull/583) Updates to Marketing Typography. ([@sophshep](https://github.com/sophshep))
+* [#660](https://github.com/primer/primer/pull/660) Add `$marketing-font-path`. ([@shawnbot](https://github.com/shawnbot))
+* [#661](https://github.com/primer/primer/pull/661) Spacer variable refactor. ([@shawnbot](https://github.com/shawnbot))
+* [#663](https://github.com/primer/primer/pull/663) Add deprecation warning for column grid classes and add `container-sm` utility class. ([@jonrohan](https://github.com/jonrohan))
+
+#### :bug: Bug Fix
+* [#654](https://github.com/primer/primer/pull/654) Fix typo ("Chroma") in `primer-base` comment. ([@Jiang-Xuan](https://github.com/Jiang-Xuan))
+* [#655](https://github.com/primer/primer/pull/655) Fix typo ("conditonally") in `docs/src/SideNav.js` comment. ([@0xflotus](https://github.com/0xflotus))
+
+### :house: Internal
+* [#659](https://github.com/primer/primer/pull/659) Generate CSS selector diff report on Travis. ([@shawnbot](https://github.com/shawnbot))
+
+#### Committers: 4
+- 0xflotus ([0xflotus](https://github.com/0xflotus))
+- Jiang-Xuan ([Jiang-Xuan](https://github.com/Jiang-Xuan))
+- Jon Rohan ([jonrohan](https://github.com/jonrohan))
+- Shawn Allen ([shawnbot](https://github.com/shawnbot))
+- Sophie Shepherd ([sophshep](https://github.com/sophshep))
+
+# 10.10.5
+
+#### :bug: Bug Fix
+* [#650](https://github.com/primer/primer/pull/650) Fix border radius edge utility specificity. ([@shawnbot](https://github.com/shawnbot))
+
+#### :memo: Documentation
+* [#649](https://github.com/primer/primer/pull/649) Sandboxed code examples. ([@shawnbot](https://github.com/shawnbot))
+
+#### :house: Internal
+- Only check links on Travis if `[check-links]` is included in the commit message
+- a5658d3 Run `now alias` without the branch name on merge to `master`
+
+#### Committers: 1
+- Shawn Allen ([shawnbot](https://github.com/shawnbot))
+
+
 # 10.10.4
 
 #### :memo: Documentation
